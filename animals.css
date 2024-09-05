@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(251, 235, 241);
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+}
+
+p {
+    font-size: 14px;
+}
+
+#logo {
+    margin: 0px; 
+    padding: 10px;
+    font-family: "Fredoka One", sans-serif;
+    width: 16%;
+    text-shadow: 
+    1px 1px 0px white,
+    -1px 1px 0px white,
+    1px -1px 0px white,
+    -1px -1px 0px white;
+}
+
+ul {
+    margin: 0px;
+}
+
+body > header {
+    background-color: rgb(252, 213, 245);
+    color: rgb(251, 160, 251);
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul> li {
+   padding: 8px;
+   margin: 16px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: rgb(214, 147, 255);
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid rgb(255, 230, 244);
+    border-radius: 10%;
+}
+
+body > main article {
+    width: 70%;
+    font-size: 14px;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content> div {
+    width: 70%;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer {
+    background-color: rgb(252, 213, 245);
+    color: rgb(251, 160, 251);
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+img {
+    border-radius: 50%;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li> a {
+    color: rgb(233, 104, 240);
+    text-decoration: none;
+}
+
+.linkbutton {
+    color: rgb(214, 147, 255);
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid rgb(255, 230, 244);
+    border-radius: 5%;
+}
+
+article {
+    position: relative;
+    top: 15px;
+    left: 0px;
+}
+
+article > header {
+    background-color: rgb(239, 201, 255) ;
+}
+
+#filter-ul {
+    display: flex;
+}
+
+#filter > li {
+   padding: 8px;
+   margin: 16px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton1 {
+    color: rgb(214, 147, 255);
+    text-decoration: none;
+    border: 1px solid rgb(255, 230, 244);
+    border-radius: 10%;
+}
