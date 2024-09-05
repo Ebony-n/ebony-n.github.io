@@ -92,13 +92,6 @@ h2 {
     color: rgb(255, 37, 186);
 }
 
-img {
-    border-radius: 50%;
-    align-items: center;
-    position: relative;
-    margin: auto;
-}
-
 #footer-ul {
     display: flex;
     list-style: none;
@@ -155,7 +148,7 @@ body > header > nav > ul {
 
 .column {
     float: left;
-    width: 10%;
+    width: 10.40%;
     padding: 5px;
 }
 
@@ -164,3 +157,10 @@ body > header > nav > ul {
     display: table;
     clear: both;
 }
+
+img {
+    border-radius: 10%;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+

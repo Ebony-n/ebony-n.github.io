@@ -93,11 +93,6 @@ body > footer {
     display: flex;
 }
 
-img {
-    border-radius: 50%;
-    float: right;
-}
-
 #footer-ul {
     display: flex;
     list-style: none;
@@ -138,13 +133,13 @@ aside {
 
 .column {
     float: left;
-    width: 10%;
+    width: 7.63%;
     padding: 5px;
 }
 
 .row::after {
     content: "";
-    display: table;
+    display: grid;
     clear: both;
 }
 
@@ -154,5 +149,11 @@ aside {
     padding: 12px;
     border: 1px solid rgb(255, 230, 244);
     border-radius: 10%;
+}
+
+img {
+    border-radius: 10%;
+    display: inline-block;
+    flex-wrap: wrap;
 }
 
