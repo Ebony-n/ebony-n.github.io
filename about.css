@@ -110,11 +110,6 @@ body > footer {
     list-style: none;
 }
 
-#footer-ul > li {
-    padding: 8px;
-    margin: 16px;
- }
-
 #footer-ul > div > li {
     margin-left: 12px;
 }
@@ -157,5 +152,3 @@ img {
     display: inline-block;
     flex-wrap: wrap;
 }
-
-
