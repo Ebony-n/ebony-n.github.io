@@ -177,18 +177,3 @@ img {
     max-height: auto;
 }
 
-@media screen and (max-width: 600px) {
-    .main-header {
-        width: 100%;
-    }
-    
-}
-
-
-@media screen and (max-width: 600px) {
-    .footer-ul {
-        width: 100%;
-        margin: 20%;
-    }
-    
-}
