@@ -152,3 +152,8 @@ img {
     display: inline-block;
     flex-wrap: wrap;
 }
+
+.responsive {
+    max-width: 100%;
+    height: 100%;
+}
