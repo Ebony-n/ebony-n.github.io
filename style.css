@@ -172,5 +172,6 @@ img {
 @media (max-width: 600px) {
     .footer-ul {
     width: 100%;
+    margin-bottom: auto;
 }
 }
